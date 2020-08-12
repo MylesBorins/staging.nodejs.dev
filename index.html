@@ -8,8 +8,10 @@
   <title>staging.nodejs.dev</title>
   <!-- Style and layout inspired by https://web.dev/one-line-layouts/ -->
   <style>
-    .grid {
+    body {
+      font-family: system-ui, sans-serif;
       display: grid;
+      margin: 0;
       width: 100vw;
       height: 100vh;
       place-items: center;
@@ -34,16 +36,11 @@
     .coral {
       background-color: coral;
     }
-    body {
-      font-family: Sans-Serif;
-    }
   </style>
 </head>
-<body>
-  <div class="grid blue" >
-    <a href="https://github.com/nodejs/nodejs.dev" class="button coral">
-      Lost?
-    </a>
-  </div>
+<body class="blue">
+  <a href="https://github.com/nodejs/nodejs.dev" class="button coral">
+    Lost?
+  </a>
 </body>
 </html>
