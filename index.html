@@ -16,8 +16,16 @@
     }
     .button {
       color: white;
-      padding: 1em;
       border-radius: 10px;
+      text-decoration: none;
+      padding: 1em;
+      transition: padding .2s ease-in-out;
+    }
+    .button:hover {
+      padding: 1.3em;
+    }
+    .button:active {
+      padding: 1.4em;
     }
     .blue {
       background-color: aliceblue;
@@ -33,7 +41,7 @@
 <body>
   <div class="grid blue" >
     <a href="https://github.com/nodejs/nodejs.dev" class="button coral">
-      Welcome to staging.nodejs.dev
+      Lost?
     </a>
   </div>
 </body>
